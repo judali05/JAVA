@@ -1,0 +1,38 @@
+factura
+
+
+
+ private void CalcularMouseClicked(java.awt.event.MouseEvent evt) {                                      
+        int producto1 = 0, producto2 = 0, producto3 = 0, Vunidad1 = 0, Vunidad2 = 0, Vunidad3 = 0, cantidad1 = 0, cantidad2 = 0, cantidad3 = 0, Vtotal1 = 0, Vtotal2 = 0, Vtotal3 = 0, Total = 0;
+        char nombre;
+
+        nombre = (char) Integer.parseInt(Nombre.getText());
+
+        char a;
+        a = nombre;
+
+        producto1 = Integer.parseInt(Prod1.getText());
+        producto2 = Integer.parseInt(Prod2.getText());
+        producto3 = Integer.parseInt(Prod3.getText());
+
+        Vunidad1 = Integer.parseInt(Vuni1.getText());
+        Vunidad2 = Integer.parseInt(Vuni2.getText());
+        Vunidad3 = Integer.parseInt(Vuni3.getText());
+
+        cantidad1 = Integer.parseInt(Can1.getText());
+        cantidad2 = Integer.parseInt(Can2.getText());
+        cantidad3 = Integer.parseInt(Can3.getText());
+
+        // Vtotal1 = Integer.parseInt(Vto1.getText());
+        //Vtotal2 = Integer.parseInt(Vto2.getText());
+        //Vtotal3 = Integer.parseInt(Vto3.getText());
+
+        //Total = Integer.parseInt(Tprod.getText());
+
+        //Vtotal1 = producto2 + Vunidad2 + cantidad2;
+        //Vtotal2 = producto1 + Vunidad1 + cantidad1;
+        // Vtotal3 = producto3 + Vunidad3 + cantidad3;
+
+        //Total = Vtotal1 + Vtotal2 + Vtotal3;
+
+        resultado.setText(cantidad2 + "hola" + cantidad1);
