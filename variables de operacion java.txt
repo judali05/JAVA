@@ -1,0 +1,197 @@
+  int producto1 = 0, producto2 = 0, producto3 = 0, Vunidad1 = 0, Vunidad2 = 0, Vunidad3 = 0, cantidad1 = 0, cantidad2 = 0, cantidad3 = 0, Vtotal1 = 0, Vtotal2 = 0, Vtotal3 = 0, Total = 0;
+        char nombre;
+
+        nombre = (char) Integer.parseInt(Nombre.getText());
+
+        char a;
+        a = nombre;
+
+        
+
+        Vunidad1 = Integer.parseInt(Vuni1.getText());
+        Vunidad2 = Integer.parseInt(Vuni2.getText());
+        Vunidad3 = Integer.parseInt(Vuni3.getText());
+
+        cantidad1 = Integer.parseInt(Can1.getText());
+        cantidad2 = Integer.parseInt(Can2.getText());
+        cantidad3 = Integer.parseInt(Can3.getText());
+
+        // Vtotal1 = Integer.parseInt(Vto1.getText());
+        //Vtotal2 = Integer.parseInt(Vto2.getText());
+        //Vtotal3 = Integer.parseInt(Vto3.getText());
+
+        //Total = Integer.parseInt(Tprod.getText());
+
+        //Vtotal1 = producto2 + Vunidad2 + cantidad2;
+        //Vtotal2 = producto1 + Vunidad1 + cantidad1;
+        // Vtotal3 = producto3 + Vunidad3 + cantidad3;
+
+        //Total = Vtotal1 + Vtotal2 + Vtotal3;
+
+        resultado.setText(cantidad2 + "hola" + cantidad1);
+
+
+---------------------------------------------------------------------------------------------
+
+
+ int Vunidad1 = 0, Vunidad2 = 0, Vunidad3 = 0, cantidad1 = 0, cantidad2 = 0, cantidad3 = 0, Vtotal1 = 0, Vtotal2 = 0, Vtotal3 = 0, Total = 0;
+ char nombre;
+	
+	nombre = (char) Integer.parseInt(Nombre.getText());
+
+        char a;
+        a = nombre;
+
+	Vunidad1 = Integer.parseInt(Vuni1.getText());
+        Vunidad2 = Integer.parseInt(Vuni2.getText());
+        Vunidad3 = Integer.parseInt(Vuni3.getText());
+
+        cantidad1 = Integer.parseInt(Can1.getText());
+        cantidad2 = Integer.parseInt(Can2.getText());
+        cantidad3 = Integer.parseInt(Can3.getText());
+
+	Vtotal1 = Vunidad1 * cantidad1;
+        Vtotal2 = Vunidad2 * cantidad2;
+        Vtotal3 = Vunidad3 * cantidad3;
+
+	String tol1 = Vtotal1 + "";
+	String tol2 = Vtotal2 + "";
+	String tol3 = Vtotal3 + "";
+
+	Vto1.setText(tol1);
+	Vto2.setText(tol2);
+	Vto3.setText(tol3);
+
+	Total = Vtotal1 + Vtotal2 + Vtotal3;
+
+	String res = Total + "";
+
+	Tprod.setText(res);
+	
+
+---------------------------------------------------------------------------------------------------------------------------
+
+	double Vunidad1, Vunidad2, Vunidad3, cantidad1, cantidad2, cantidad3, Vtotal1, Vtotal2, Vtotal3, Total;
+        char nombre;
+	
+	nombre = (char) Integer.parseInt(Nombre.getText());
+        
+        String n;
+        n = nombre + " ";
+        
+	Vunidad1 = Double.parseDouble(Vuni1.getText());
+        Vunidad2 = Double.parseDouble(Vuni2.getText());
+        Vunidad3 = Double.parseDouble(Vuni3.getText());
+
+        cantidad1 = Double.parseDouble(Can1.getText());
+        cantidad2 = Double.parseDouble(Can2.getText());
+        cantidad3 = Double.parseDouble(Can3.getText());
+
+	Vtotal1 = Vunidad1 * cantidad1;
+        Vtotal2 = Vunidad2 * cantidad2;
+        Vtotal3 = Vunidad3 * cantidad3;
+
+	String tol1 = Vtotal1 + " ";
+	String tol2 = Vtotal2 + " ";
+	String tol3 = Vtotal3 + " ";
+
+	Vto1.setText(tol1);
+	Vto2.setText(tol2);
+	Vto3.setText(tol3);
+
+	Total = Vtotal1 + Vtotal2 + Vtotal3;
+
+	String res = Total + " ";
+
+	Tprod.setText(res);
+        
+        String p = "el total de su compra es: ";
+        
+        respuesta.setText( n + p + res);
+
+
+------------------------------------------------------------------------------
+
+        double Vunidad1, Vunidad2, Vunidad3, cantidad1, cantidad2, cantidad3, Vtotal1, Vtotal2, Vtotal3, Total;
+        char nombre;
+	
+	nombre=(char) Integer.parseInt(Nombre.getText());
+        
+        String n;
+        n=nombre + " ";
+        
+	Vunidad1=Double.parseDouble(Vuni1.getText());
+        Vunidad2=Double.parseDouble(Vuni2.getText());
+        Vunidad3=Double.parseDouble(Vuni3.getText());
+
+        cantidad1=Double.parseDouble(Can1.getText());
+        cantidad2=Double.parseDouble(Can2.getText());
+        cantidad3=Double.parseDouble(Can3.getText());
+
+	Vtotal1=Vunidad1 * cantidad1;
+        Vtotal2=Vunidad2 * cantidad2;
+        Vtotal3=Vunidad3 * cantidad3;
+
+	String tol1=Vtotal1 + " ";
+	String tol2=Vtotal2 + " ";
+	String tol3=Vtotal3 + " ";
+
+	Vto1.setText(tol1);
+	Vto2.setText(tol2);
+	Vto3.setText(tol3);
+
+	Total=Vtotal1 + Vtotal2 + Vtotal3;
+
+	String res=Total + " ";
+
+	Tprod.setText(res);
+        
+        String p="el total de su compra es: ";
+        
+        respuesta.setText( n + p + res);
+
+------------------------------------------------------------------------------------------------
+
+ int Vunidad1, Vunidad2, Vunidad3, cantidad1, cantidad2, cantidad3, Vtotal1, Vtotal2, Vtotal3, Total;
+
+        String N;
+ 
+	Vunidad1=Integer.parseInt(Vuni1.getText());
+        Vunidad2=Integer.parseInt(Vuni2.getText());
+        Vunidad3=Integer.parseInt(Vuni3.getText());
+
+        cantidad1=Integer.parseInt(Can1.getText());
+        cantidad2=Integer.parseInt(Can2.getText());
+        cantidad3=Integer.parseInt(Can3.getText());
+
+	Vtotal1=Vunidad1*cantidad1;
+        Vtotal2=Vunidad2*cantidad2;
+        Vtotal3=Vunidad3*cantidad3;
+
+	Vto1.setText(Integer.toString(Vtotal1));
+	Vto2.setText(Integer.toString(Vtotal2));
+        Vto3.setText(Integer.toString(Vtotal3));
+
+	Total=Vtotal1 + Vtotal2 + Vtotal3;
+
+	Tprod.setText(Integer.toString(Total));
+        
+        N=Nombre.getText();
+        
+        respuesta.setText(N + " el valor de su compra es: " +  Tprod);
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
